@@ -132,14 +132,6 @@
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
         <h1 id="Programing"><a href="#Programing" class="headerlink" title="Programing"></a>Programing</h1><p>裡面有C++、python</p>
-<ul>
-<li>link  <a href="">基本注意</a><ul>
-<li>遞迴  <a href="">河內塔</a>  <a href="">F91(假遞迴)</a></li>
-<li>I/O  <a href="">istringstream</a></li>
-<li>STL  <a href="">vector</a>  <a href="">stack</a>  <a href="">queue</a>  <a href="">其他STL container</a></li>
-</ul>
-  <a href="">Binary Tree</a>  <a href="">分而治之法</a>  <a href="">Discord Bot</a></li>
-</ul>
 <p><a target="_blank" rel="noopener" href="https://www.notion.so/b75e0914379d48c9bb37aa044ba00dc5">實作題</a></p>
 <h2 id="基本注意"><a href="#基本注意" class="headerlink" title="基本注意"></a>基本注意</h2><p>因為考量到未來可能會一直寫下去，所以就開了個page避免這個主題太長。</p>
 <p>基本上就是初學者容易忘記的事情</p>
@@ -230,8 +222,8 @@
 <ol>
 <li> 圖(付費解鎖完整版，好啦沒拉，自己上網查:D)<br>圈起來的是每個迴圈考慮的範圍，但是下面我沒畫出跨過中線兩點的範圍(因為圖很複雜)</li>
 </ol>
-<p><img src="Programing%20625525e5c38541ad8d2a2f295dc2d6e4/1.png" alt="1.png"></p>
-<p><img src="Programing%20625525e5c38541ad8d2a2f295dc2d6e4/2.png" alt="2.png"></p>
+<p><img src="https://kind-gambler-aef.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc3d2b78b-8508-45f9-8495-a7028a72fb83%2F1.png?table=block&id=625525e5-c385-41ad-8d2a-2f295dc2d6e4&spaceId=d3ef4578-53e6-413f-9df1-180b06655bc8&width=2000&userId=&cache=v2" alt="1.png"></p>
+<p><img src="https://kind-gambler-aef.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F92e9e4d2-0a91-47e0-87ef-3afade9c522e%2F2.png?table=block&id=8f871a92-22fe-46f6-a06d-6393fba8d15e&spaceId=d3ef4578-53e6-413f-9df1-180b06655bc8&width=2000&userId=&cache=v2" alt="2.png"></p>
 <h2 id="Lambda-Expression"><a href="#Lambda-Expression" class="headerlink" title="Lambda Expression"></a>Lambda Expression</h2><p>網路上(如下)的應該更清楚，這邊抓重點(基本)就好</p>
 <p>基本的寫法及應用是這樣</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sort</span>(vec, vec+Size, </span><br><span class="line">			[](pair&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; &amp;a, pair&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; &amp;b)</span><br><span class="line">			&#123;<span class="built_in"><span class="keyword">return</span></span> (a.first == b.first) ? a.first &lt; b.first : a.second &lt; b.second;&#125;;</span><br></pre></td></tr></table></figure>
