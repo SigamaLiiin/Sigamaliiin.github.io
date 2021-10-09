@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#3367D6"/>
+  <link rel="apple-touch-icon" href="/icons-192.png">
+  <link rel="manifest" href="/manifest.json">
+  
+  <meta name="generator" content="Hexo 5.4.0">
+
+  
+    <meta name="description" content="just something not important will be put here">
+  
+
+  
+
+  
+    <meta name="author" content="吸個麻Sigama">
+  
+
+  
+
+  
+
+  <title>First Page | Sigama&#39;s Dream</title>
+
+  
+
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@1.1.3/index.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlightjs@9.16.2/styles/monokai.css">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <div class="root-container">
+    
+<!-- header container -->
+<header class="header-container post">
+  
+    <div class="post-image" style="background-image: url(https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg)"></div>
+  
+
+  <!-- navbar -->
+<nav class="navbar">
+  <div class="navbar-content">
+    <!-- logo -->
+    <div class="navbar-logo">
+      <a href="/">
+        
+          Sigama&#39;s Dream
+        
+      </a>
+    </div>
+    <!-- link -->
+    <div class="navbar-link">
+      <div class="navbar-btn">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="navbar-list">
+        
+          <li class="navbar-list-item"><a href="/">首页</a></li>
+        
+          <li class="navbar-list-item"><a href="/links">友链</a></li>
+        
+          <li class="navbar-list-item"><a href="/about">关于</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="header-content">
+      <div class="post-text layout-block">
+        <div class="layout-margin">
+          <h1 class="title-wrap">First Page</h1>
+          <h2 class="title-sub-wrap">
+            <strong>吸個麻Sigama</strong>
+            <span>发布于</span>
+            <time  class="article-date" datetime="2021-10-09T15:12:13.000Z" itemprop="datePublished">2021-10-09</time>
+          </h2>
+          <ul class="wrap-list dark">
+  
+</ul>
+          <ul class="wrap-list dark">
+  
+</ul>
+        </div>
+      </div>
+    </div>
+  
+
+  
+  
+  
+</header>
+
+    <!-- 文章 -->
+
+<!-- 文章内容 -->
+<div class="body-container">
+  <article class="content-container layout-block post-container">
+    <div class="article-info">
+      
+      
+      
+      
+      <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
+        <h1 id="Programing"><a href="#Programing" class="headerlink" title="Programing"></a>Programing</h1><p>裡面有C++、python</p>
+<ul>
+<li>link  <a href="">基本注意</a><ul>
+<li>遞迴  <a href="">河內塔</a>  <a href="">F91(假遞迴)</a></li>
+<li>I/O  <a href="">istringstream</a></li>
+<li>STL  <a href="">vector</a>  <a href="">stack</a>  <a href="">queue</a>  <a href="">其他STL container</a></li>
+</ul>
+  <a href="">Binary Tree</a>  <a href="">分而治之法</a>  <a href="">Discord Bot</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.notion.so/b75e0914379d48c9bb37aa044ba00dc5">實作題</a></p>
+<h2 id="基本注意"><a href="#基本注意" class="headerlink" title="基本注意"></a>基本注意</h2><p>因為考量到未來可能會一直寫下去，所以就開了個page避免這個主題太長。</p>
+<p>基本上就是初學者容易忘記的事情</p>
+<p><a target="_blank" rel="noopener" href="https://www.notion.so/C-51ecc304223d42fba2ab7c0268cdb788">基本注意(C++)</a></p>
+<h2 id="快速冪"><a href="#快速冪" class="headerlink" title="快速冪"></a>快速冪</h2><p>有用到次方的概念都可以用，不一定限定一元而已，二元也可以這樣做。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ll <span class="title">fast_pow</span><span class="params">(ll a, ll k)</span></span>&#123;</span><br><span class="line">	  ll result=<span class="number">1</span>;</span><br><span class="line">		k--;</span><br><span class="line">		<span class="keyword">while</span>(k)&#123;</span><br><span class="line">				<span class="keyword">if</span>(k&amp;<span class="number">1</span>)&#123;result*=a;&#125;</span><br><span class="line">				a*=a; k&gt;&gt;=<span class="number">1</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="河內塔"><a href="#河內塔" class="headerlink" title="河內塔"></a>河內塔</h2><p>遞迴經典題目之一，把移動盤子分為三個動作</p>
+<p>1.將A柱上面所有盤子移動到B柱子(buffer)</p>
+<p>2.將最底下的那一個盤子移動到C柱(目的地)</p>
+<p>3.將B柱的盤子移動到C柱子</p>
+<p>簡單點，就是A、B、C柱子每個動作都可能擔任from、buffer、to的角色，遞迴可以這樣寫:<br>(遞迴的解釋真的好難)</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">HanoiTower</span><span class="params">(<span class="keyword">char</span> from, <span class="keyword">char</span> buffer, <span class="keyword">char</span> to, <span class="keyword">int</span> disk_number)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(n==<span class="number">1</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		cout&lt;&lt;<span class="string">&quot;from &quot;</span>&lt;&lt;from&lt;&lt;<span class="string">&quot;to &quot;</span>&lt;&lt;to&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">HanoiTower</span>(from, to, buffer, disk_number<span class="number">-1</span>);</span><br><span class="line">		<span class="built_in">HanoiTower</span>(from, buffer, to, <span class="number">1</span>);</span><br><span class="line">		<span class="built_in">HanoiTower</span>(buffer, from, to, disk_number<span class="number">-1</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>(河內塔的延伸有很多題目，例如三色河內塔等等)(有圖會更好懂)</p>
+<p>三色河內塔：</p>
+<p><a target="_blank" rel="noopener" href="https://hackmd.io/@apcsd3d4/r1JtpJFiI#/">HackMD - Collaborative Markdown Knowledge Base</a></p>
+<h2 id="F91-經典題目"><a href="#F91-經典題目" class="headerlink" title="F91(經典題目)"></a>F91(經典題目)</h2><p>$$if:n&lt;=100,f91(n)=f91(f91(n+11))\<br>else,f91(n)=n-10$$</p>
+<p>　　看到這題，其實當初有股衝動想把它遞迴解決，不過許多經典題目是訓練邏輯，當n≥101很明顯答案只要減10即為所求，但是當n≤100，f(100)=f(f(111))=f(101),f(99)=f(100), f(98)=(f99) ‧‧‧‧‧‧，小於100的正整數n，最後求出來的都是f(101)=91。此題僅要寫個if…else判斷就好。</p>
+<h2 id="Istringstream"><a href="#Istringstream" class="headerlink" title="Istringstream"></a>Istringstream</h2><p>#include <sstream></p>
+<p>如果split為char也能正常執行(以空白切割)</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">string str = <span class="string">&quot;1      22 3 4      5&quot;</span>;</span><br><span class="line">string split;</span><br><span class="line"><span class="function">istringstream <span class="title">tmp</span><span class="params">(str)</span></span>;</span><br><span class="line"><span class="keyword">while</span> (tmp &gt;&gt; split)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; split &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line">cout &lt;&lt; str;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h2><p>　　學習vector前，C++可以先看看動態配置的概念(其實幫助不大，只是如果不懂動配，有些人突然跳上STL有難度而已)，順便一提，因為非高中、大學可能不知道，陣列與高中數學矩陣(二下第四章)有類似的性質，有興趣可以了解。</p>
+<ul>
+<li>Method:  push_back(value)<br>  emplace_back()<br>  pop_back()<br>  size()<br>  insert(located, value)<br>  erase(located)  傳說，emplace_back比push_back快，因為emplace不產生新的物件，少了一些步驟，而push會先複製一份，再傳到目標vector，所以比較慢。(不是那麼重要)</li>
+</ul>
+<p>一維用法</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">vec</span><span class="params">(<span class="number">10</span>, <span class="number">0</span>)</span></span>; <span class="comment">//declare</span></span><br><span class="line"><span class="comment">/*第一個數字(10)代表有幾筆資料</span></span><br><span class="line"><span class="comment">	第二個數字(0)代表放進的預設值*/</span></span><br><span class="line">========================================</span><br><span class="line">vector&lt;<span class="keyword">int</span>&gt; vec;</span><br><span class="line">vector&lt;<span class="keyword">int</span>&gt;::iterator iter;</span><br><span class="line"><span class="keyword">for</span>(iter=vec.<span class="built_in">begin</span>(), i=<span class="number">0</span>; iter!=vec.<span class="built_in">end</span>(); iter++, i++)</span><br><span class="line">&#123;</span><br><span class="line">	cout&lt;&lt;vec[i]&lt;&lt;<span class="string">&#x27; &#x27;</span>;</span><br><span class="line">	cout&lt;&lt;*iter&lt;&lt;<span class="string">&#x27; &#x27;</span>; <span class="comment">//iter is an adress, so need use &#x27;*&#x27; to get value</span></span><br><span class="line">&#125;</span><br><span class="line">========================================</span><br><span class="line">vector&lt;<span class="keyword">int</span>&gt; vec;</span><br><span class="line"><span class="comment">//繼承(其實不是繼承，只是本人感覺很像繼承的概念)</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> d:vec)</span><br><span class="line">	cout&lt;&lt;d&lt;&lt;<span class="string">&#x27; &#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//繼承+取得位置(範例即參考) after: C++ 11</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> &amp;d:vec)</span><br><span class="line">	d*=<span class="number">2</span>;</span><br></pre></td></tr></table></figure>
+
+<p>二維</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vector&lt; vector&lt;<span class="keyword">int</span>&gt; &gt; <span class="built_in">vec_2D</span>(n, vector&lt;<span class="keyword">int</span>&gt;(m));</span><br><span class="line"><span class="comment">//亦為n*m的陣列</span></span><br></pre></td></tr></table></figure>
+
+<p><a target="_blank" rel="noopener" href="https://ramihaha.tw/c-program-container-vector-array-linklist/">[C++程式設計] 學習筆記─容器 vector的使用(二維陣列與二維串列) - 蕾咪哈哈-歐美旅遊時尚|理財觀點</a></p>
+<h2 id="Stack"><a href="#Stack" class="headerlink" title="Stack"></a>Stack</h2><p>堆積木是最老套但是也是最好的例子，可以看看河內塔就會知道怎麼運作的orz</p>
+<ul>
+<li>基本操作  size()      看看有幾個積木  top()       偷看最上面的積木的值  pop()      刪掉最上面的積木(不會回傳值)  push()     往上疊一個  empty()  看看是否為空</li>
+</ul>
+<p>經典的題目是「括號匹配」、「後序運算」</p>
+<p><a target="_blank" rel="noopener" href="https://www.notion.so/d37ca62005c94a60b9ba0b902104230a">括號匹配</a></p>
+<h2 id="Queue"><a href="#Queue" class="headerlink" title="Queue"></a>Queue</h2><p>標頭檔（c++）：</p>
+<p>#queue #deque #vector</p>
+<p>排隊的概念，一端進一端出，用front, rear兩個變數分別記錄輸出位置、存入位置，</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">queue[front];</span><br><span class="line">queue[rear];</span><br><span class="line"><span class="comment">//好我知道這兩行意義不明，上面只是想要說，手作佇列會用兩個Int存佇列頭、尾的位置</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="其他STL-container"><a href="#其他STL-container" class="headerlink" title="其他STL container"></a>其他STL container</h2><ol>
+<li>piority_queue：<br>買飲料問題會用到：<a target="_blank" rel="noopener" href="https://tioj.ck.tp.edu.tw/problems/1999">https://tioj.ck.tp.edu.tw/problems/1999</a></li>
+</ol>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">piority_queue&lt;<span class="keyword">int</span>&gt; pq;</span><br><span class="line">piority_queue&lt;<span class="keyword">int</span>, vector&lt;<span class="keyword">int</span>&gt;, greater&lt;<span class="keyword">int</span>&gt;&gt; pq_reverse;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>Map：<br>沒記錯的話，跟python的dictionary概念差不多</li>
+</ol>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Map&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; mp;</span><br><span class="line">map[<span class="number">5</span>]=<span class="number">5</span>;</span><br><span class="line">vector&lt;pair&lt;<span class="keyword">int</span>,<span class="keyword">int</span>&gt;&gt; <span class="built_in">v</span>(mp.<span class="built_in">begin</span>(),mp.<span class="built_in">end</span>());</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>set<br>a. 不重複元素(意思就是你插入兩次’5’，裡面只會跑出一次’5’ b. 由小排到大</li>
+</ol>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">set&lt;<span class="keyword">int</span>&gt; st;</span><br><span class="line">st.<span class="built_in">insert</span>(<span class="number">9</span>);</span><br><span class="line">st.<span class="built_in">insert</span>(<span class="number">5</span>);</span><br><span class="line">st.<span class="built_in">insert</span>(<span class="number">7</span>);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span> i:st)cout&lt;&lt;i&lt;&lt;endl;</span><br><span class="line">st.<span class="built_in">erase</span>(<span class="number">5</span>)<span class="comment">//刪除5</span></span><br><span class="line"><span class="keyword">bool</span> IsFind = st.<span class="built_in">count</span>(<span class="number">5</span>);</span><br></pre></td></tr></table></figure>
+
+<p><a target="_blank" rel="noopener" href="https://jasonblog.github.io/note/c++/c++_stl_xue_xi_zong_7d5028_quan_976229.html">C++ STL 學習總結(全面)</a></p>
+<h2 id="Binary-Tree"><a href="#Binary-Tree" class="headerlink" title="Binary Tree"></a>Binary Tree</h2><ol>
+<li>子節點(使用linked list實作其實節點算法比較不常用到，用陣列模擬就會用到) 右：index*2+2 左：index*2+1</li>
+<li>搜尋節點 小於往左(沒了回傳NOT FOUND)；大於往右(沒了回傳NOT FOUND)。找到回傳TRUE</li>
+<li>加入節點 跟搜尋節點類似，往葉節點找，找到就插入 這邊先放個二元搜尋樹的範例code<br> 題目：輸入數字，把數字放進二元搜尋樹排序，輸出最後高度。</li>
+</ol>
+<ul>
+<li>因為本人非高手也，因此程式碼頗長，用個toggle收起來XD  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sstream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">int</span> level=<span class="number">0</span>;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> data;</span><br><span class="line">    node *left=<span class="literal">nullptr</span>, *right=<span class="literal">nullptr</span>;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">insert</span><span class="params">(node* tree, <span class="keyword">int</span> n, <span class="keyword">int</span> cnt)</span></span></span><br><span class="line"><span class="function"></span>&#123;  </span><br><span class="line">		<span class="comment">//根節點處理</span></span><br><span class="line">    <span class="keyword">if</span>(level==<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        tree-&gt;data = n;</span><br><span class="line">        <span class="keyword">if</span>(cnt &gt; level)level = cnt;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//LEFT</span></span><br><span class="line">    <span class="keyword">if</span>(n &lt;= tree-&gt;data)</span><br><span class="line">    &#123;</span><br><span class="line">        cnt++;</span><br><span class="line">        <span class="keyword">if</span>(tree-&gt;left == <span class="literal">nullptr</span>)</span><br><span class="line">        &#123;</span><br><span class="line">						<span class="comment">//建一個新節點，並放入左節點</span></span><br><span class="line">            node *new_node = <span class="keyword">new</span> node;</span><br><span class="line">            new_node-&gt;data = n;</span><br><span class="line">            tree-&gt;left=new_node;</span><br><span class="line">            <span class="keyword">if</span>(cnt &gt; level)level = cnt;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            tree = tree-&gt;left;</span><br><span class="line">            <span class="built_in">insert</span>(tree, n, cnt);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//RIGHT</span></span><br><span class="line">    <span class="keyword">if</span>(n &gt; tree-&gt;data)</span><br><span class="line">    &#123;</span><br><span class="line">        cnt++;</span><br><span class="line">        <span class="keyword">if</span>(tree-&gt;right == <span class="literal">nullptr</span>)</span><br><span class="line">        &#123;</span><br><span class="line">						<span class="comment">//建一個新節點，並放入右節點</span></span><br><span class="line">            node *new_node = <span class="keyword">new</span> node;</span><br><span class="line">            new_node-&gt;data = n;</span><br><span class="line">            tree-&gt;right=new_node;</span><br><span class="line">            <span class="keyword">if</span>(cnt &gt; level)level = cnt;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            tree = tree-&gt;right;</span><br><span class="line">            <span class="built_in">insert</span>(tree, n, cnt);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">main</span>()</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    string str;</span><br><span class="line">    node *tree = <span class="keyword">new</span> node;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">getline</span>(cin,str);</span><br><span class="line">    <span class="function">istringstream <span class="title">iss</span><span class="params">(str)</span></span>;</span><br><span class="line">    <span class="keyword">while</span>(iss &gt;&gt; n)</span><br><span class="line">        <span class="built_in">insert</span>(tree, n, <span class="number">1</span>);</span><br><span class="line">    </span><br><span class="line">    cout&lt;&lt;level;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<ol>
+<li>刪除節點 先往下找，找到後，如果該節點沒有左節點，就回傳右節點，如果沒有右節點，回傳左節點給父節點(連接起來)，如此一來，樹就會斷節要刪除的節點，實際上的確不是真的刪除，只是斷絕關係而已。 如果左右子節點都存在，有兩種做法，一種是找左邊的最大值，另一種是右邊的最小值節點當根節點(原刪除的那個)。 <img src="https://i.stack.imgur.com/EFQoQ.png" alt="https://i.stack.imgur.com/EFQoQ.png"></li>
+</ol>
+<h2 id="分而治之法"><a href="#分而治之法" class="headerlink" title="分而治之法"></a>分而治之法</h2><p>(講簡單點就是難一點的遞迴)</p>
+<p>經典的題目是:最靠近的兩點</p>
+<ol>
+<li> 先把所有點用sort把所有點依照X來排序，再去用遞迴</li>
+<li> 遞迴終止條件有:</li>
+</ol>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//少於一個點，回傳infinity</span></span><br><span class="line"><span class="keyword">if</span>(right - left &lt; <span class="number">1</span>)<span class="keyword">return</span> INFINITY;</span><br><span class="line"><span class="comment">//如果洽好兩個點，直接回傳兩點距離</span></span><br><span class="line"><span class="keyword">if</span>(left + <span class="number">1</span> == right)<span class="keyword">return</span> <span class="built_in">distance</span>(Point1, Point2);</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li> 遞迴的做法:<br>先找中點M以左、以右的最小距離d<br>然後在找出中點M.x ± d以內的點，窮舉裡面的最小距離(目的是為了找出有最小距離，同時跨過中線的兩點)<br>然後回傳最小點就好了</li>
+<li>程式碼</li>
+</ol>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iomanip&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Point</span>&#123;</span></span><br><span class="line">    <span class="keyword">double</span> x,y;</span><br><span class="line">    <span class="keyword">bool</span> <span class="keyword">operator</span>&lt;(<span class="keyword">const</span> Point &amp;p)&#123;</span><br><span class="line">        <span class="keyword">if</span>(x!=p.x)  <span class="keyword">return</span> x &lt; p.x;</span><br><span class="line">        <span class="keyword">else</span>        <span class="keyword">return</span> y &lt; p.y;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">int</span> n;</span><br><span class="line">Point p[<span class="number">3000001</span>]=&#123;&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">double</span> <span class="title">dist</span><span class="params">(Point &amp;X, Point &amp;Y)</span></span>&#123;</span><br><span class="line">    <span class="keyword">double</span> dx=X.x-Y.x, dy=X.y-Y.y;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">sqrt</span>(dx*dx + dy*dy);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">double</span> <span class="title">find</span><span class="params">(<span class="keyword">int</span> ls, <span class="keyword">int</span> rs)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> len = rs-ls+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(len&lt;<span class="number">2</span>)   <span class="keyword">return</span> INFINITY;</span><br><span class="line">    <span class="keyword">if</span>(len==<span class="number">2</span>)  <span class="keyword">return</span> <span class="built_in">dist</span>(p[ls], p[rs]);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span>    m=(ls+rs)/<span class="number">2</span>, i, j;</span><br><span class="line">    <span class="keyword">double</span> mini, dis;</span><br><span class="line">    mini = <span class="built_in">min</span>(<span class="built_in">find</span>(ls, m), <span class="built_in">find</span>(m, rs));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">double</span> mLine = p[m].x,</span><br><span class="line">           lBound= p[m].x - mini,</span><br><span class="line">           rBound= p[m].x + mini;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span>(i=m; i&gt;=ls &amp;&amp; p[i].x &gt;= lBound; i--)&#123;</span><br><span class="line">        <span class="keyword">for</span>(j=m+<span class="number">1</span>; j&lt;=rs &amp;&amp; p[j].x &lt;= rBound; j++)&#123;</span><br><span class="line">            dis  = <span class="built_in">dist</span>(p[i], p[j]);</span><br><span class="line">            mini = <span class="built_in">min</span> (dis , mini);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> mini;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">main</span>()</span><br><span class="line">&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line">    <span class="keyword">double</span> dis;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">while</span>(cin&gt;&gt;n &amp;&amp; n!=<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;n; i++)  cin&gt;&gt;p[i].x&gt;&gt;p[i].y;</span><br><span class="line">        <span class="built_in">sort</span>(p, p+n);</span><br><span class="line">        dis = <span class="built_in">find</span>(<span class="number">0</span>, n<span class="number">-1</span>);</span><br><span class="line"></span><br><span class="line">        dis&gt;<span class="number">10000</span> ? cout &lt;&lt; <span class="string">&quot;INFINITY\n&quot;</span>:</span><br><span class="line">                    cout &lt;&lt; fixed &lt;&lt; <span class="built_in">setprecision</span>(<span class="number">4</span>) &lt;&lt; dis &lt;&lt; <span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li> 圖(付費解鎖完整版，好啦沒拉，自己上網查:D)<br>圈起來的是每個迴圈考慮的範圍，但是下面我沒畫出跨過中線兩點的範圍(因為圖很複雜)</li>
+</ol>
+<p><img src="Programing%20625525e5c38541ad8d2a2f295dc2d6e4/1.png" alt="1.png"></p>
+<p><img src="Programing%20625525e5c38541ad8d2a2f295dc2d6e4/2.png" alt="2.png"></p>
+<h2 id="Lambda-Expression"><a href="#Lambda-Expression" class="headerlink" title="Lambda Expression"></a>Lambda Expression</h2><p>網路上(如下)的應該更清楚，這邊抓重點(基本)就好</p>
+<p>基本的寫法及應用是這樣</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sort</span>(vec, vec+Size, </span><br><span class="line">			[](pair&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; &amp;a, pair&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; &amp;b)</span><br><span class="line">			&#123;<span class="built_in"><span class="keyword">return</span></span> (a.first == b.first) ? a.first &lt; b.first : a.second &lt; b.second;&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><a target="_blank" rel="noopener" href="https://blog.gtwang.org/programming/lambda-expression-in-c11/">C++11 Lambda Expression 語法教學與範例 - G. T. Wang</a></p>
+<h2 id="圖形結構演算法"><a href="#圖形結構演算法" class="headerlink" title="圖形結構演算法"></a>圖形結構演算法</h2><p><a target="_blank" rel="noopener" href="https://hackmd.io/@apcsd3d4/SJi57Nx-D">https://hackmd.io/@apcsd3d4/SJi57Nx-D</a></p>
+<h2 id="Discord-Bot"><a href="#Discord-Bot" class="headerlink" title="Discord Bot"></a>Discord Bot</h2><p>基本上Youtube、Discord API reference看看就能知道大概怎麼寫了，Youtube推薦的是Proladon：</p>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=odIQEJW0m1M&list=PLSCgthA1Anif1w6mKM3O6xlBGGypXtrtN">https://www.youtube.com/watch?v=odIQEJW0m1M&amp;list=PLSCgthA1Anif1w6mKM3O6xlBGGypXtrtN</a></p>
+<h2 id="Hexo-and-GitHub"><a href="#Hexo-and-GitHub" class="headerlink" title="Hexo and GitHub"></a>Hexo and GitHub</h2><p><a target="_blank" rel="noopener" href="https://hsiangfeng.github.io/hexo/20190411/932826160/">架設 Hexo+GitHub</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/miiiku/hexo-theme-flexblock">GitHub - miiiku/hexo-theme-flexblock: 一个卡片类拟态风格的Hexo主题</a></p>
+
+      </section>
+
+      
+      
+        <nav class="article-nav">
+          
+          
+            <div class="article-nav-item layout-padding">
+  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
+    
+    <div class="card-text">
+      
+        <a href="/2021/10/09/hello-world/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">Hello World</h2>
+        </a>
+      
+      <div class="card-text--row">Older</div>
+    </div>
+  </article>
+</div>
+          
+        </nav>
+      
+
+      <section class="page-message-container layout-padding">
+        
+
+
+  
+  
+
+  
+  
+
+
+      </section>
+    </div>
+    <div class="widget-info">
+      <section class="widget-author widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
+  <div class="widget-body">
+    
+      <img src="https://s.gravatar.com/avatar/2d6b803eea37de0257620d5fabee7e64?s=200&amp;r=g&amp;d=retro" class="soft-size--round soft-style--box" alt="Sukoshi">
+    
+    
+      <h2>Sukoshi</h2>
+    
+    
+      <p>贵在坚持</p>
+    
+
+    <div class="count-box">
+      <div class="count-box--item">
+        <svg class="icon icon-article" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M240.51564747 647.74217627h196.07203239c16.59071043 0 30.16492806-13.57421762 30.16492805-30.16492806V165.10332731c0-33.18142087-30.16492806-60.32985613-60.32985612-60.32985611H245.04038668C225.43318342 104.7734712 210.35071939 119.85593522 210.35071939 139.46313845V617.57724821c0 16.59071043 13.57421762 30.16492806 30.16492808 30.16492806z m663.62841731-452.47392089v482.63884894c0 33.18142087-27.14843525 60.32985613-60.32985612 60.32985613H180.18579134c-33.18142087 0-60.32985613-27.14843525-60.32985612-60.32985613V195.26825538c-49.77213131 0-90.49478418 40.72265287-90.49478417 90.49478417v452.4739209c0 49.77213131 40.72265287 90.49478418 90.49478417 90.49478417h286.56681657c16.59071043 0 30.16492806 13.57421762 30.16492807 30.16492807s13.57421762 30.16492806 30.16492805 30.16492806h90.49478418c16.59071043 0 30.16492806-13.57421762 30.16492805-30.16492806s13.57421762-30.16492806 30.16492807-30.16492807h286.56681657c49.77213131 0 90.49478418-40.72265287 90.49478417-90.49478417V285.76303955c0-49.77213131-40.72265287-90.49478418-90.49478417-90.49478417zM587.41232014 647.74217627h191.54729318c19.60720323 0 34.68966726-15.08246403 34.68966729-34.68966727V134.93839925c0-16.59071043-13.57421762-30.16492806-30.16492808-30.16492805H617.57724821c-30.16492806 0-60.32985613 27.14843525-60.32985612 60.32985611v452.4739209c0 16.59071043 13.57421762 30.16492806 30.16492805 30.16492806z" fill="currentColor"></path>
+</svg>
+        <span>2</span>
+      </div>
+      <div class="count-box--item">
+        <svg class="icon icon-categories" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M900.3614811 257.09082106h-339.81629553l-67.96326003-101.9448889c-19.41807444-29.12711113-48.54518557-43.69066667-82.52681443-43.69066667H123.6385189c-53.39970333 0-97.09036999 43.69066667-97.09037113 97.09036999v582.54222222c0 53.39970333 43.69066667 97.09036999 97.09037113 97.09037002h776.7229622c53.39970333 0 97.09036999-43.69066667 97.09037113-97.09037002V354.18119104c0-53.39970333-43.69066667-97.09036999-97.09037113-97.09036998z m-97.09036999 242.72592554H220.72888889c-24.27259221 0-48.54518557-24.27259221-48.54518556-48.54518556s24.27259221-48.54518557 48.54518556-48.54518444h582.54222222c24.27259221 0 48.54518557 24.27259221 48.54518556 48.54518444s-24.27259221 48.54518557-48.54518556 48.54518556z" fill="currentColor"></path>
+</svg>
+        0
+      </div>
+      <div class="count-box--item">
+        <svg class="icon icon-tags" viewBox="0 0 1098 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M283.42180005 272q0-28.38857157-20.09142843-48.48000001t-48.47999998-20.09142842-48.48000002 20.09142842-20.09142846 48.48000001 20.09142846 48.48 48.48000002 20.09142843 48.47999998-20.09142843 20.09142843-48.48zM855.0332285 580.57142843q0 28.38857157-19.81714313 48.2057147l-263.03999997 263.58857157q-20.9142853 19.81714313-48.75428534 19.81714312-28.38857157 0-48.20571468-19.81714312l-383.04-383.58857157q-20.36571468-19.81714313-34.55999999-54.10285688t-14.19428534-62.6742853l0-222.85714313q0-27.84000002 20.36571469-48.20571469t48.2057147-20.36571466l222.85714313 0q28.38857157 0 62.6742853 14.19428529t54.65142842 34.55999999l383.04000001 382.49142843q19.81714313 20.9142853 19.81714314 48.75428532zM1060.74751475 580.57142843q0 28.38857157-19.81714313 48.2057147l-263.04 263.58857157q-20.9142853 19.81714313-48.75428531 19.81714312-19.26857155 0-31.61142843-7.47428531t-28.38857159-24.13714314l251.79428534-251.7942853q19.81714313-19.81714313 19.81714308-48.20571469 0-27.84000002-19.81714308-48.75428531l-383.04000001-382.49142845q-20.36571468-20.36571468-54.65142842-34.55999999t-62.67428532-14.19428534l120 0q28.38857157 0 62.67428532 14.19428534t54.65142842 34.55999999l383.03999998 382.49142845q19.81714313 20.9142853 19.81714314 48.75428531z" fill="currentColor"></path>
+</svg>
+        0
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+
+      
+<section class="widet-notice widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
+  <div class="widget-title">
+    <svg class="icon icon-notice" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M512 945.02305225v28.15620663a24.27259221 24.27259221 0 0 1-24.27259221 24.27259335H394.0352a48.54518557 48.54518557 0 0 1-41.74885888-23.78714112l-110.68302222-184.47170332a132.04290333 132.04290333 0 0 1-17.47626667-48.54518557h118.4502511a200.97706667 200.97706667 0 0 1 76.21594113 14.56355556l20.38897777 133.49925888a48.54518557 48.54518557 0 0 0 36.40888888 27.67075555l16.01991111 2.91271112a24.27259221 24.27259221 0 0 1 20.38897778 25.72894889zM997.45185223 463.45481443a194.18074112 194.18074112 0 0 1-38.8361489 116.50844445 24.75804445 24.75804445 0 0 1-36.4088889 0l-34.95253333-34.95253333a24.27259221 24.27259221 0 0 1-2.91271111-30.58346667 97.09036999 97.09036999 0 0 0 0-106.79940665 24.27259221 24.27259221 0 0 1 2.91271111-30.58346666l34.95253333-34.95253334a24.75804445 24.75804445 0 0 1 18.93262223-7.28177777 26.2144 26.2144 0 0 1 17.47626667 9.70903665A194.18074112 194.18074112 0 0 1 997.45185223 463.45481443z m-194.18074112-388.36148111v776.72296335a48.54518557 48.54518557 0 0 1-48.54518556 48.54518443h-28.64165888a48.54518557 48.54518557 0 0 1-33.98163001-14.07810332l-145.63555556-143.20829668A291.27111111 291.27111111 0 0 0 342.57730333 657.63555556H172.18370333a145.63555556 145.63555556 0 0 1-145.63555556-145.63555556v-97.09036999a145.63555556 145.63555556 0 0 1 145.63555556-145.63555556h170.3936a291.27111111 291.27111111 0 0 0 206.31703779-85.43952668l145.63555555-143.20829554a48.54518557 48.54518557 0 0 1 33.98162888-14.07810446H754.72592555a48.54518557 48.54518557 0 0 1 48.54518556 48.54518555z" fill="currentColor"></path>
+</svg>
+    <span>NOTICE</span>
+  </div>
+  <div class="widget-body">
+    <p>flex-block主题部分重构，详情查看https://github.com/miiiku/flex-block</p>
+  </div>
+</section>
+
+
+      <section class="widget-categorys widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
+  <div class="widget-title">
+    <svg class="icon icon-categories" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M900.3614811 257.09082106h-339.81629553l-67.96326003-101.9448889c-19.41807444-29.12711113-48.54518557-43.69066667-82.52681443-43.69066667H123.6385189c-53.39970333 0-97.09036999 43.69066667-97.09037113 97.09036999v582.54222222c0 53.39970333 43.69066667 97.09036999 97.09037113 97.09037002h776.7229622c53.39970333 0 97.09036999-43.69066667 97.09037113-97.09037002V354.18119104c0-53.39970333-43.69066667-97.09036999-97.09037113-97.09036998z m-97.09036999 242.72592554H220.72888889c-24.27259221 0-48.54518557-24.27259221-48.54518556-48.54518556s24.27259221-48.54518557 48.54518556-48.54518444h582.54222222c24.27259221 0 48.54518557 24.27259221 48.54518556 48.54518444s-24.27259221 48.54518557-48.54518556 48.54518556z" fill="currentColor"></path>
+</svg>
+    <span>CATEGORYS</span>
+  </div>
+  <div class="widget-body">
+    <ul class="categorys-list">
+      
+    </ul>
+  </div>
+</section>
+
+      <section class="widget-tags widget-item  layout-margin content-padding--primary soft-size--large soft-style--box">
+  <div class="widget-title">
+    <svg class="icon icon-tags" viewBox="0 0 1098 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M283.42180005 272q0-28.38857157-20.09142843-48.48000001t-48.47999998-20.09142842-48.48000002 20.09142842-20.09142846 48.48000001 20.09142846 48.48 48.48000002 20.09142843 48.47999998-20.09142843 20.09142843-48.48zM855.0332285 580.57142843q0 28.38857157-19.81714313 48.2057147l-263.03999997 263.58857157q-20.9142853 19.81714313-48.75428534 19.81714312-28.38857157 0-48.20571468-19.81714312l-383.04-383.58857157q-20.36571468-19.81714313-34.55999999-54.10285688t-14.19428534-62.6742853l0-222.85714313q0-27.84000002 20.36571469-48.20571469t48.2057147-20.36571466l222.85714313 0q28.38857157 0 62.6742853 14.19428529t54.65142842 34.55999999l383.04000001 382.49142843q19.81714313 20.9142853 19.81714314 48.75428532zM1060.74751475 580.57142843q0 28.38857157-19.81714313 48.2057147l-263.04 263.58857157q-20.9142853 19.81714313-48.75428531 19.81714312-19.26857155 0-31.61142843-7.47428531t-28.38857159-24.13714314l251.79428534-251.7942853q19.81714313-19.81714313 19.81714308-48.20571469 0-27.84000002-19.81714308-48.75428531l-383.04000001-382.49142845q-20.36571468-20.36571468-54.65142842-34.55999999t-62.67428532-14.19428534l120 0q28.38857157 0 62.67428532 14.19428534t54.65142842 34.55999999l383.03999998 382.49142845q19.81714313 20.9142853 19.81714314 48.75428531z" fill="currentColor"></path>
+</svg>
+    <span>TAGS</span>
+  </div>
+  <div class="widget-body">
+    <div class="tags-cloud">
+      
+    </div>
+  </div>
+</section>
+    </div>
+  </article>
+</div>
+
+    <!-- footer container -->
+<footer id="footer" class="footer">
+  <div class="footer-container">
+    
+    <div class="social-icons">
+      
+        
+      
+        
+      
+        
+      
+        
+          <a href="https://github.com/miiiku/" class="soft-size--primary soft-style--box" target="_blank" rel="noopener noreferrer">
+            <svg class="icon icon-github" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M64.6 512c0 195.6 125.4 361.9 300.1 422.9 23.5 5.9 19.9-10.8 19.9-22.2v-77.6c-135.8 15.9-141.3-74-150.5-89-18.5-31.5-61.9-39.5-49-54.5 31-15.9 62.5 4 98.9 58 26.4 39.1 77.9 32.5 104.1 26 5.7-23.5 17.9-44.5 34.7-60.9-140.7-25.2-199.4-111.1-199.4-213.3 0-49.5 16.4-95.1 48.4-131.8-20.4-60.6 1.9-112.4 4.9-120.1 58.2-5.2 118.5 41.6 123.3 45.3 33.1-8.9 70.8-13.7 112.9-13.7 42.4 0 80.3 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.4-43.9 2.9 7.7 24.7 58.3 5.5 118.1 32.5 36.8 49 82.8 49 132.4 0 102.3-59 188.3-200.2 213.2 23.5 23.3 38.1 55.5 38.1 91.1v112.7c0.8 9 0 17.9 15.1 17.9C832.7 877 960.4 709.4 960.4 512.1c0-247.5-200.6-447.9-447.9-447.9C265 64.1 64.6 264.5 64.6 512z"></path>
+</svg>
+          </a>
+        
+      
+        
+          <a href="https://twitter.com/guanquanhong" class="soft-size--primary soft-style--box" target="_blank" rel="noopener noreferrer">
+            <svg class="icon icon-twitter" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M962.285714 233.142857q-38.285714 56-92.571429 95.428571 0.571429 8 0.571429 24 0 74.285714-21.714286 148.285714t-66 142-105.428571 120.285714-147.428571 83.428571-184.571429 31.142857q-154.857143 0-283.428571-82.857143 20 2.285714 44.571429 2.285714 128.571429 0 229.142857-78.857143-60-1.142857-107.428571-36.857143t-65.142857-91.142857q18.857143 2.857143 34.857143 2.857143 24.571429 0 48.571429-6.285714-64-13.142857-106-63.714286t-42-117.428571l0-2.285714q38.857143 21.714286 83.428571 23.428571-37.714286-25.142857-60-65.714286t-22.285714-88q0-50.285714 25.142857-93.142857 69.142857 85.142857 168.285714 136.285714t212.285714 56.857143q-4.571429-21.714286-4.571429-42.285714 0-76.571429 54-130.571429t130.571429-54q80 0 134.857143 58.285714 62.285714-12 117.142857-44.571429-21.142857 65.714286-81.142857 101.714286 53.142857-5.714286 106.285714-28.571429z"></path>
+</svg>
+          </a>
+        
+      
+    </div>
+     
+    <p>&copy; 2021 <a href="/" target="_blank">吸個麻Sigama</a></p>
+
+    
+
+    <p>Powered by <a href="https://hexo.io" target="_blank" rel="noopener noreferrer">Hexo</a> Theme - <a href="https://github.com/miiiku/flex-block" target="_blank" rel="noopener noreferrer author">flex-block</a></p>
+
+    <p>
+      <a href="javascript:;" id="theme-light">🌞 浅色</a>
+      <a href="javascript:;" id="theme-dark">🌛 深色</a>
+      <a href="javascript:;" id="theme-auto">🤖️ 自动</a>
+    </p>
+  </div>
+</footer>
+  </div>
+
+  <div class="back-to-top-fixed soft-size--round soft-style--box">
+    <svg class="icon icon-back-to-top" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <path d="M725.333333 426.666667c-12.8 0-21.333333-4.266667-29.866667-12.8l-213.333333-213.333333c-17.066667-17.066667-17.066667-42.666667 0-59.733333s42.666667-17.066667 59.733333 0l213.333333 213.333333c17.066667 17.066667 17.066667 42.666667 0 59.733333C746.666667 422.4 738.133333 426.666667 725.333333 426.666667z"></path>
+      <path d="M298.666667 426.666667c-12.8 0-21.333333-4.266667-29.866667-12.8-17.066667-17.066667-17.066667-42.666667 0-59.733333l213.333333-213.333333c17.066667-17.066667 42.666667-17.066667 59.733333 0s17.066667 42.666667 0 59.733333l-213.333333 213.333333C320 422.4 311.466667 426.666667 298.666667 426.666667z"></path>
+      <path d="M512 896c-25.6 0-42.666667-17.066667-42.666667-42.666667L469.333333 170.666667c0-25.6 17.066667-42.666667 42.666667-42.666667s42.666667 17.066667 42.666667 42.666667l0 682.666667C554.666667 878.933333 537.6 896 512 896z"></path>
+    </svg>
+  </div>
+
+  
+  <!-- aplayer -->
+
+
+<!-- dplayer -->
+
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+  
+  <!-- 尾部用户自定义相关内容 -->
+</body>
+</html>
